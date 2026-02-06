@@ -1,3 +1,5 @@
+# Warning: Because of internet limitations in Iran, I will upload models, dataset and notebook at the first time that I can.
+
 # AI vs. Human Face Detection
 
 ## 📌 Project Overview
