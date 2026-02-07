@@ -41,36 +41,21 @@ Both models share the same neural network architecture:
 ## 📂 Repository Structure
 ```
 ├── models/
-│   ├── model1_trained.pth
-│   ├── model2_trained.pth
-│   └── model_architecture.py
+│   ├── model_1.pt
+│   ├── model_2.pt
 ├── dataset/
-│   ├── real_images/
-│   ├── ai_generated/
-│   └── validation_set/
-├── notebooks/
-│   ├── training.ipynb
-│   └── evaluation.ipynb
-├── src/
-│   ├── train.py
-│   ├── evaluate.py
-│   └── utils.py
-├── requirements.txt
+│   ├── dataset_real_or_fake_face.rar
+├── notebook/
+│   ├── notebook.ipynb
 ├── README.md
 └── LICENSE
 ```
 
 ## 📊 Dataset Details
 The dataset consists of:
-- **Real Human Faces**: 50,000 images from FFHQ, CelebA, and custom smartphone photos
-- **AI-generated Faces**: 50,000 images from StyleGAN2, StyleGAN3, and DALL-E 2
-- **Validation Set**: 5,000 real smartphone images + 5,000 recent AI-generated faces
-
-## 🧪 Experimental Results
-Our models demonstrate remarkable generalization:
-- **Cross-dataset testing**: Maintains >98% accuracy on unseen datasets
-- **Real-world deployment**: 100% detection rate on actual smartphone photos
-- **Robustness**: Resistant to common image manipulations and compression artifacts
+- **1290 Face Images**
+- **590 Real Face Images**
+- **700 AI Generated Face Images**
 
 ## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -84,11 +69,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📝 Citation
 If you use this work in your research, please cite:
 ```bibtex
-@software{AI_Face_Detection_2023,
+@software{AIGenerated_Or_Real_Image_Detection,
   title = {AI vs Human Face Detection: Dual Model Approach},
-  author = {Your Name},
-  year = {2023},
-  url = {https://github.com/yourusername/ai-face-detection}
+  author = {Javad Rahimi},
+  year = {2025},
+  url = {https://github.com/AloneMaster7/ai-face-detection}
 }
 ```
 
@@ -98,7 +83,7 @@ This project is licensed under the MIT License.
 ## 📧 Contact
 For questions or collaborations, please open an issue or contact:
 - **Javad Rahimi** - [jvd.r.403@gmail.com](mailto:jvd.r.403@gmail.com)
-
+- **Telegram ID** - @AlServiceHub
 ---
 
 ⭐ **Star this repository if you find it useful!**
