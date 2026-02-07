@@ -64,7 +64,7 @@ If you use this work in your research, please cite:
   title = {AI vs Human Face Detection: Dual Model Approach},
   author = {Javad Rahimi},
   year = {2025},
-  url = {https://github.com/AloneMaster7/ai-face-detection}
+  url = {https://github.com/AloneMaster7/AIGenerated_Or_Real_Image_Detection}
 }
 ```
 
