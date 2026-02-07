@@ -1,5 +1,3 @@
-# Warning: Because of internet limitations in Iran, I will upload models, dataset and notebook at the first time that I can.
-
 # AI vs. Human Face Detection
 
 ## 📌 Project Overview
@@ -60,70 +58,6 @@ Both models share the same neural network architecture:
 ├── requirements.txt
 ├── README.md
 └── LICENSE
-```
-
-## 🛠️ Installation & Usage
-
-### Prerequisites
-```bash
-Python 3.8+
-PyTorch 1.10+
-CUDA 11.3 (optional, for GPU acceleration)
-```
-
-### Installation
-```bash
-# Clone repository
-git clone https://github.com/yourusername/ai-face-detection.git
-cd ai-face-detection
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Quick Start
-```python
-from src.inference import FaceDetector
-
-# Initialize detector
-detector = FaceDetector()
-
-# Load single image
-result = detector.predict("path/to/image.jpg")
-print(f"Prediction: {'AI-generated' if result['is_ai'] else 'Real Human'}")
-print(f"Confidence: {result['confidence']:.2%}")
-
-# Batch processing
-results = detector.predict_batch(["img1.jpg", "img2.jpg", "img3.jpg"])
-```
-
-## 📈 Training Your Own Model
-```python
-from src.train import train_model
-
-# Train Model 1 (Standard strategy)
-train_model(strategy="standard", 
-            epochs=50,
-            batch_size=32)
-
-# Train Model 2 (Enhanced strategy)
-train_model(strategy="enhanced",
-            epochs=50,
-            batch_size=32)
-```
-
-## 🔍 Model Evaluation
-```python
-from src.evaluate import evaluate_model
-
-# Evaluate on test set
-metrics = evaluate_model(model_path="models/model1_trained.pth",
-                         test_data="dataset/validation_set/")
-
-print(f"Accuracy: {metrics['accuracy']:.2%}")
-print(f"Precision: {metrics['precision']:.2%}")
-print(f"Recall: {metrics['recall']:.2%}")
-print(f"F1-Score: {metrics['f1']:.2%}")
 ```
 
 ## 📊 Dataset Details
